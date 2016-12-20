@@ -1,0 +1,16 @@
+PROGRAMA Ejercicio;
+INCLUYE Libreria;
+VAR 
+   ENTERO i;
+   ARREGLO CARaCTER Nombre[50];
+   ARREGLO REAL Promedio[50];
+INICIA
+{ 
+  DESDE (i=1 HASTA i<50)
+{
+ MUESTRA (“Introduce el nombre”);
+   INTRODUCE (Nombre[i]);
+MUESTRA (“Introduce el promedio”);
+   INTRODUCE (Promedio[i]);
+}
+} TERMINA
